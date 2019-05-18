@@ -1,0 +1,160 @@
+1/27/2016 9:48:57 AM app started
+1/27/2016 9:48:57 AM CommandLineArgs: {0} 
+1/27/2016 9:48:58 AM Quotewerks found
+1/27/2016 9:50:45 AM Check Address
+1/27/2016 9:50:45 AM Document Index: 1
+1/27/2016 9:50:45 AM verifying address With USPS
+1/27/2016 9:50:45 AM USPS request: http://production.shippingapis.com/ShippingAPI.dll?API=Verify&XML=<AddressValidateRequest USERID="473GREYS0190"><Address ID="0"><Address1>725%20clinton%20st</Address1><Address2></Address2><City>denver</City><State>co</State><Zip5></Zip5><Zip4></Zip4></Address></AddressValidateRequest>
+1/27/2016 9:50:48 AM USPS response <?xml version="1.0" encoding="UTF-8"?><AddressValidateResponse><Address ID="0"><Address2>725 S CLINTON ST</Address2><City>DENVER</City><State>CO</State><Zip5>80247</Zip5><Zip4>1510</Zip4><ReturnText>Default address: The address you entered was found but more information is needed (such as an apartment, suite, or box number) to match to a specific address.</ReturnText></Address></AddressValidateResponse>
+1/27/2016 9:50:48 AM USPS Time: 3.2721872
+1/27/2016 9:50:48 AM Update Address
+1/27/2016 9:51:08 AM Yes
+1/27/2016 9:51:08 AM User accepted corrected address
+1/27/2016 9:51:08 AM checking tax
+1/27/2016 9:51:08 AM Document Index: 1
+1/27/2016 9:51:09 AM getting tax rate
+1/27/2016 9:51:09 AM GetTax Result: Success
+1/27/2016 9:51:09 AM GetTax Time:0.4800275
+1/27/2016 9:51:09 AM Avalara Get Tax Success
+1/27/2016 9:51:09 AM Document Code: UNSAVED Total Tax: 351.14
+1/27/2016 9:51:09 AM     Line Number: 0 Line Tax Rate: 0.0765
+1/27/2016 9:51:09 AM Setting QW tax rate to 0.0765
+1/27/2016 9:51:41 AM QWApp_BeforeConvertDocument
+1/27/2016 9:51:41 AM Check Address
+1/27/2016 9:51:41 AM Document Index: 1
+1/27/2016 9:51:41 AM Address has already been validated
+1/27/2016 9:51:44 AM QWApp_AfterConvertDocument
+1/27/2016 9:51:45 AM checking tax
+1/27/2016 9:51:45 AM Document Index: 1
+1/27/2016 9:51:45 AM getting tax rate and committing
+1/27/2016 9:51:45 AM GetTax Result: Success
+1/27/2016 9:51:45 AM GetTax Time:0.2150123
+1/27/2016 9:51:45 AM Avalara Get Tax Success
+1/27/2016 9:51:45 AM Document Code: MFBI1039 Total Tax: 351.14
+1/27/2016 9:51:45 AM     Line Number: 0 Line Tax Rate: 0.0765
+1/27/2016 9:51:45 AM Converting tax rate to line item
+1/27/2016 9:53:17 AM Check Address
+1/27/2016 9:53:17 AM Document Index: 2
+1/27/2016 9:53:17 AM verifying address With USPS
+1/27/2016 9:53:17 AM USPS request: http://production.shippingapis.com/ShippingAPI.dll?API=Verify&XML=<AddressValidateRequest USERID="473GREYS0190"><Address ID="0"><Address1>725%20s%20clinton%20st%2012b</Address1><Address2></Address2><City>denver</City><State>co</State><Zip5></Zip5><Zip4></Zip4></Address></AddressValidateRequest>
+1/27/2016 9:53:18 AM USPS response <?xml version="1.0" encoding="UTF-8"?><AddressValidateResponse><Address ID="0"><Error><Number>-2147219401</Number><Source>clsAMS</Source><Description>Address Not Found.  </Description><HelpFile /><HelpContext /></Error></Address></AddressValidateResponse>
+1/27/2016 9:53:18 AM USPS Time: 0.3120179
+1/27/2016 9:53:20 AM The Address Validation Service returned an error:
+Address Not Found.  
+1/27/2016 9:53:20 AM checking tax
+1/27/2016 9:53:20 AM Document Index: 2
+1/27/2016 9:53:20 AM getting tax rate
+1/27/2016 9:53:23 AM GetTax Result: Success
+1/27/2016 9:53:23 AM GetTax Time:2.6181498
+1/27/2016 9:53:23 AM Avalara Get Tax Success
+1/27/2016 9:53:23 AM Document Code: UNSAVED Total Tax: 84.15
+1/27/2016 9:53:23 AM     Line Number: 0 Line Tax Rate: 0.0765
+1/27/2016 9:53:23 AM Setting QW tax rate to 0.0765
+1/27/2016 9:53:38 AM Check Address
+1/27/2016 9:53:38 AM Document Index: 2
+1/27/2016 9:53:38 AM verifying address With USPS
+1/27/2016 9:53:38 AM USPS request: http://production.shippingapis.com/ShippingAPI.dll?API=Verify&XML=<AddressValidateRequest USERID="473GREYS0190"><Address ID="0"><Address1>725%20s%20clinton%20st%20%2312b</Address1><Address2></Address2><City>denver</City><State>co</State><Zip5></Zip5><Zip4></Zip4></Address></AddressValidateRequest>
+1/27/2016 9:53:38 AM USPS response <?xml version="1.0" encoding="UTF-8"?><AddressValidateResponse><Address ID="0"><Address1>APT 12B</Address1><Address2>725 S CLINTON ST</Address2><City>DENVER</City><State>CO</State><Zip5>80247</Zip5><Zip4>1514</Zip4></Address></AddressValidateResponse>
+1/27/2016 9:53:38 AM USPS Time: 0.1280073
+1/27/2016 9:53:38 AM Update Address
+1/27/2016 9:53:46 AM Yes
+1/27/2016 9:53:46 AM User accepted corrected address
+1/27/2016 9:53:46 AM checking tax
+1/27/2016 9:53:46 AM Document Index: 2
+1/27/2016 9:53:46 AM getting tax rate
+1/27/2016 9:53:48 AM GetTax Result: Success
+1/27/2016 9:53:48 AM GetTax Time:1.4940854
+1/27/2016 9:53:48 AM Avalara Get Tax Success
+1/27/2016 9:53:48 AM Document Code: MFBQ1043 Total Tax: 84.15
+1/27/2016 9:53:48 AM     Line Number: 0 Line Tax Rate: 0.0765
+1/27/2016 9:53:48 AM Setting QW tax rate to 0.0765
+1/27/2016 10:04:00 AM Check Address
+1/27/2016 10:04:00 AM Document Index: 2
+1/27/2016 10:04:00 AM verifying address With USPS
+1/27/2016 10:04:00 AM USPS request: http://production.shippingapis.com/ShippingAPI.dll?API=Verify&XML=<AddressValidateRequest USERID="473GREYS0190"><Address ID="0"><Address1>725%20S%20CLINTON%20ST.</Address1><Address2>APT%2012B</Address2><City>DENVER</City><State>CO</State><Zip5>80247</Zip5><Zip4>1514</Zip4></Address></AddressValidateRequest>
+1/27/2016 10:04:01 AM USPS response <?xml version="1.0" encoding="UTF-8"?><AddressValidateResponse><Address ID="0"><Address1>APT 12B</Address1><Address2>725 S CLINTON ST</Address2><City>DENVER</City><State>CO</State><Zip5>80247</Zip5><Zip4>1514</Zip4></Address></AddressValidateResponse>
+1/27/2016 10:04:01 AM USPS Time: 0.4520258
+1/27/2016 10:04:01 AM Update Address
+1/27/2016 10:04:04 AM Yes
+1/27/2016 10:04:04 AM User accepted corrected address
+1/27/2016 10:04:04 AM checking tax
+1/27/2016 10:04:04 AM Document Index: 2
+1/27/2016 10:04:04 AM tax has already been retrieved for this Order
+1/27/2016 10:04:42 AM Check Address
+1/27/2016 10:04:42 AM Document Index: 2
+1/27/2016 10:04:42 AM verifying address With USPS
+1/27/2016 10:04:42 AM USPS request: http://production.shippingapis.com/ShippingAPI.dll?API=Verify&XML=<AddressValidateRequest USERID="473GREYS0190"><Address ID="0"><Address1>725%20S%20CLINTON%20ST</Address1><Address2>APT%2012B</Address2><City>DENVER</City><State>CO</State><Zip5>80247</Zip5><Zip4>1514</Zip4></Address></AddressValidateRequest>
+1/27/2016 10:04:43 AM USPS response <?xml version="1.0" encoding="UTF-8"?><AddressValidateResponse><Address ID="0"><Address1>APT 12B</Address1><Address2>725 S CLINTON ST</Address2><City>DENVER</City><State>CO</State><Zip5>80247</Zip5><Zip4>1514</Zip4></Address></AddressValidateResponse>
+1/27/2016 10:04:43 AM USPS Time: 0.1300075
+1/27/2016 10:04:43 AM Address unchanged
+1/27/2016 10:04:43 AM checking tax
+1/27/2016 10:04:43 AM Document Index: 2
+1/27/2016 10:04:43 AM getting tax rate
+1/27/2016 10:04:44 AM GetTax Result: Success
+1/27/2016 10:04:44 AM GetTax Time:1.4540832
+1/27/2016 10:04:44 AM Avalara Get Tax Success
+1/27/2016 10:04:44 AM Document Code: MFBQ1043 Total Tax: 84.15
+1/27/2016 10:04:44 AM     Line Number: 0 Line Tax Rate: 0.0765
+1/27/2016 10:04:44 AM Setting QW tax rate to 0.0765
+1/27/2016 10:05:28 AM Check Address
+1/27/2016 10:05:28 AM Document Index: 2
+1/27/2016 10:05:28 AM Address has already been validated
+1/27/2016 10:05:28 AM checking tax
+1/27/2016 10:05:28 AM Document Index: 2
+1/27/2016 10:05:28 AM getting tax rate
+1/27/2016 10:05:28 AM GetTax Result: Success
+1/27/2016 10:05:28 AM GetTax Time:0.2740157
+1/27/2016 10:05:28 AM Avalara Get Tax Success
+1/27/2016 10:05:28 AM Document Code: MFBQ1043 Total Tax: 84.53
+1/27/2016 10:05:28 AM     Line Number: 0 Line Tax Rate: 0.0765
+1/27/2016 10:05:28 AM     Line Number: 1 Line Tax Rate: 0.0765
+1/27/2016 10:05:28 AM Setting QW tax rate to 0.0765
+1/27/2016 10:05:34 AM Check Address
+1/27/2016 10:05:34 AM Document Index: 2
+1/27/2016 10:05:34 AM Address has already been validated
+1/27/2016 10:05:34 AM checking tax
+1/27/2016 10:05:34 AM Document Index: 2
+1/27/2016 10:05:34 AM getting tax rate
+1/27/2016 10:05:37 AM GetTax Result: Error
+1/27/2016 10:05:37 AM GetTax Time:3.0781761
+1/27/2016 10:05:37 AM Avalara Get Tax Error: The operation has timed out
+1/27/2016 10:36:07 AM Check Address
+1/27/2016 10:36:07 AM Document Index: 2
+1/27/2016 10:36:07 AM Address has already been validated
+1/27/2016 10:36:07 AM checking tax
+1/27/2016 10:36:07 AM Document Index: 2
+1/27/2016 10:36:07 AM getting tax rate
+1/27/2016 10:36:08 AM GetTax Result: Success
+1/27/2016 10:36:08 AM GetTax Time:0.4040231
+1/27/2016 10:36:08 AM Avalara Get Tax Success
+1/27/2016 10:36:08 AM Document Code: MFBQ1043 Total Tax: 84.53
+1/27/2016 10:36:08 AM     Line Number: 0 Line Tax Rate: 0.0765
+1/27/2016 10:36:08 AM     Line Number: 1 Line Tax Rate: 0.0765
+1/27/2016 10:36:08 AM Setting QW tax rate to 0.0765
+1/27/2016 10:36:15 AM Check Address
+1/27/2016 10:36:15 AM Document Index: 1
+1/27/2016 10:36:15 AM Quotewerks Document has already been converted to invoice
+1/27/2016 10:36:15 AM checking tax
+1/27/2016 10:36:15 AM Document Index: 1
+1/27/2016 10:36:15 AM tax has already been retrieved for this Order
+1/27/2016 10:36:43 AM app started
+1/27/2016 10:36:43 AM CommandLineArgs: {0} 
+1/27/2016 10:36:44 AM Quotewerks found
+1/27/2016 10:42:49 AM Check Address
+1/27/2016 10:42:49 AM Document Index: 1
+1/27/2016 10:42:49 AM verifying address With USPS
+1/27/2016 10:42:49 AM USPS request: http://production.shippingapis.com/ShippingAPI.dll?API=Verify&XML=<AddressValidateRequest USERID="473GREYS0190"><Address ID="0"><Address1>925%20locust%20st</Address1><Address2></Address2><City>denver</City><State>co</State><Zip5></Zip5><Zip4></Zip4></Address></AddressValidateRequest>
+1/27/2016 10:42:51 AM USPS response <?xml version="1.0" encoding="UTF-8"?><AddressValidateResponse><Address ID="0"><Address2>925 LOCUST ST</Address2><City>DENVER</City><State>CO</State><Zip5>80220</Zip5><Zip4>4640</Zip4></Address></AddressValidateResponse>
+1/27/2016 10:42:51 AM USPS Time: 1.3970799
+1/27/2016 10:42:51 AM Update Address
+1/27/2016 10:42:54 AM Yes
+1/27/2016 10:42:54 AM User accepted corrected address
+1/27/2016 10:42:54 AM checking tax
+1/27/2016 10:42:54 AM Document Index: 1
+1/27/2016 10:42:54 AM getting tax rate
+1/27/2016 10:42:56 AM GetTax Result: Success
+1/27/2016 10:42:56 AM GetTax Time:1.6710955
+1/27/2016 10:42:56 AM Avalara Get Tax Success
+1/27/2016 10:42:56 AM Document Code: UNSAVED Total Tax: 734.32
+1/27/2016 10:42:56 AM     Line Number: 0 Line Tax Rate: 0.0765
+1/27/2016 10:42:56 AM Setting QW tax rate to 0.0765

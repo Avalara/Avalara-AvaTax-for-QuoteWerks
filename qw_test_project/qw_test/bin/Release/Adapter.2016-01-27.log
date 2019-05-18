@@ -1,0 +1,204 @@
+1/27/2016 4:51:09 PM,DEBUG,TaxSvc.GetTax
+1/27/2016 4:51:09 PM,DEBUG,Validate request
+1/27/2016 4:51:09 PM,DEBUG,Counted 2 address(es)
+1/27/2016 4:51:09 PM,DEBUG,Consolidated to 2 address(es)
+1/27/2016 4:51:09 PM,DEBUG,Copying request into proxy object
+1/27/2016 4:51:09 PM,DEBUG,Request timeout set to 3 seconds
+1/27/2016 4:51:09 PM,DEBUG,Setting the request properties and usertoken for the service request
+1/27/2016 4:51:09 PM,DEBUG,SetRequestProperties
+1/27/2016 4:51:09 PM,DEBUG,address: https://development.avalara.net/Tax/TaxSvc.asmx?AccountId=2000001483
+1/27/2016 4:51:09 PM,DEBUG,via: https://development.avalara.net/Tax/TaxSvc.asmx
+1/27/2016 4:51:09 PM,DEBUG,SetUserToken
+1/27/2016 4:51:09 PM,DEBUG,Copying Profile into proxy object
+1/27/2016 4:51:09 PM,DEBUG,Copying Security into proxy object
+1/27/2016 4:51:09 PM,DEBUG,Proxy.GetTax
+1/27/2016 4:51:09 PM,DEBUG,GetTax (webservice method): 0.459
+1/27/2016 4:51:09 PM,DEBUG,GetTax (proxy method): 461.0263
+1/27/2016 4:51:09 PM,DEBUG,Copying result from proxy object
+1/27/2016 4:51:09 PM,DEBUG,GetTax (adapter method): 0.477
+1/27/2016 4:51:45 PM,DEBUG,Instantiating BaseSvc: 635894851054021399
+1/27/2016 4:51:45 PM,INFO,Unable to load configuration file at "file:///C:/Users/tmontgomery/Documents/Visual Studio 2015/Projects/qta/qw_test_project/qw_test/bin/Release/Avalara.AvaTax.Adapter.DLL.config".
+1/27/2016 4:51:45 PM,INFO,Unable to load configuration file at "file:///C:/Users/tmontgomery/Documents/Visual Studio 2015/Projects/qta/qw_test_project/qw_test/bin/Release/Avalara.AvaTax.Adapter.DLL.config".
+1/27/2016 4:51:45 PM,DEBUG,Instantiating TaxSvc: 635894851054021399
+1/27/2016 4:51:45 PM,DEBUG,Finalizing TaxSvc: 635894850690460605
+1/27/2016 4:51:45 PM,DEBUG,Disposing BaseSvc class: 635894850690460605
+1/27/2016 4:51:45 PM,DEBUG,TaxSvc.GetTax
+1/27/2016 4:51:45 PM,DEBUG,Validate request
+1/27/2016 4:51:45 PM,DEBUG,Counted 2 address(es)
+1/27/2016 4:51:45 PM,DEBUG,Consolidated to 2 address(es)
+1/27/2016 4:51:45 PM,DEBUG,Copying request into proxy object
+1/27/2016 4:51:45 PM,DEBUG,Request timeout set to 3 seconds
+1/27/2016 4:51:45 PM,DEBUG,Setting the request properties and usertoken for the service request
+1/27/2016 4:51:45 PM,DEBUG,SetRequestProperties
+1/27/2016 4:51:45 PM,DEBUG,address: https://development.avalara.net/Tax/TaxSvc.asmx?AccountId=2000001483
+1/27/2016 4:51:45 PM,DEBUG,via: https://development.avalara.net/Tax/TaxSvc.asmx
+1/27/2016 4:51:45 PM,DEBUG,SetUserToken
+1/27/2016 4:51:45 PM,DEBUG,Copying Profile into proxy object
+1/27/2016 4:51:45 PM,DEBUG,Copying Security into proxy object
+1/27/2016 4:51:45 PM,DEBUG,Proxy.GetTax
+1/27/2016 4:51:45 PM,DEBUG,GetTax (webservice method): 0.214
+1/27/2016 4:51:45 PM,DEBUG,GetTax (proxy method): 214.0122
+1/27/2016 4:51:45 PM,DEBUG,Copying result from proxy object
+1/27/2016 4:51:45 PM,DEBUG,GetTax (adapter method): 0.215
+1/27/2016 4:53:20 PM,DEBUG,Instantiating BaseSvc: 635894852008515993
+1/27/2016 4:53:20 PM,INFO,Unable to load configuration file at "file:///C:/Users/tmontgomery/Documents/Visual Studio 2015/Projects/qta/qw_test_project/qw_test/bin/Release/Avalara.AvaTax.Adapter.DLL.config".
+1/27/2016 4:53:20 PM,INFO,Unable to load configuration file at "file:///C:/Users/tmontgomery/Documents/Visual Studio 2015/Projects/qta/qw_test_project/qw_test/bin/Release/Avalara.AvaTax.Adapter.DLL.config".
+1/27/2016 4:53:20 PM,DEBUG,Instantiating TaxSvc: 635894852008515993
+1/27/2016 4:53:20 PM,DEBUG,Finalizing TaxSvc: 635894851054021399
+1/27/2016 4:53:20 PM,DEBUG,Disposing BaseSvc class: 635894851054021399
+1/27/2016 4:53:20 PM,DEBUG,TaxSvc.GetTax
+1/27/2016 4:53:20 PM,DEBUG,Validate request
+1/27/2016 4:53:20 PM,DEBUG,Counted 2 address(es)
+1/27/2016 4:53:20 PM,DEBUG,Consolidated to 2 address(es)
+1/27/2016 4:53:20 PM,DEBUG,Copying request into proxy object
+1/27/2016 4:53:20 PM,DEBUG,Request timeout set to 3 seconds
+1/27/2016 4:53:20 PM,DEBUG,Setting the request properties and usertoken for the service request
+1/27/2016 4:53:20 PM,DEBUG,SetRequestProperties
+1/27/2016 4:53:20 PM,DEBUG,address: https://development.avalara.net/Tax/TaxSvc.asmx?AccountId=2000001483
+1/27/2016 4:53:20 PM,DEBUG,via: https://development.avalara.net/Tax/TaxSvc.asmx
+1/27/2016 4:53:20 PM,DEBUG,SetUserToken
+1/27/2016 4:53:20 PM,DEBUG,Copying Profile into proxy object
+1/27/2016 4:53:20 PM,DEBUG,Copying Security into proxy object
+1/27/2016 4:53:20 PM,DEBUG,Proxy.GetTax
+1/27/2016 4:53:23 PM,DEBUG,GetTax (webservice method): 2.616
+1/27/2016 4:53:23 PM,DEBUG,GetTax (proxy method): 2616.1496
+1/27/2016 4:53:23 PM,DEBUG,Copying result from proxy object
+1/27/2016 4:53:23 PM,DEBUG,GetTax (adapter method): 2.618
+1/27/2016 4:53:46 PM,DEBUG,Instantiating BaseSvc: 635894852269180902
+1/27/2016 4:53:46 PM,INFO,Unable to load configuration file at "file:///C:/Users/tmontgomery/Documents/Visual Studio 2015/Projects/qta/qw_test_project/qw_test/bin/Release/Avalara.AvaTax.Adapter.DLL.config".
+1/27/2016 4:53:46 PM,INFO,Unable to load configuration file at "file:///C:/Users/tmontgomery/Documents/Visual Studio 2015/Projects/qta/qw_test_project/qw_test/bin/Release/Avalara.AvaTax.Adapter.DLL.config".
+1/27/2016 4:53:46 PM,DEBUG,Instantiating TaxSvc: 635894852269180902
+1/27/2016 4:53:46 PM,DEBUG,TaxSvc.GetTax
+1/27/2016 4:53:46 PM,DEBUG,Validate request
+1/27/2016 4:53:46 PM,DEBUG,Counted 2 address(es)
+1/27/2016 4:53:46 PM,DEBUG,Consolidated to 2 address(es)
+1/27/2016 4:53:46 PM,DEBUG,Copying request into proxy object
+1/27/2016 4:53:46 PM,DEBUG,Request timeout set to 3 seconds
+1/27/2016 4:53:46 PM,DEBUG,Setting the request properties and usertoken for the service request
+1/27/2016 4:53:46 PM,DEBUG,SetRequestProperties
+1/27/2016 4:53:46 PM,DEBUG,address: https://development.avalara.net/Tax/TaxSvc.asmx?AccountId=2000001483
+1/27/2016 4:53:46 PM,DEBUG,via: https://development.avalara.net/Tax/TaxSvc.asmx
+1/27/2016 4:53:46 PM,DEBUG,SetUserToken
+1/27/2016 4:53:46 PM,DEBUG,Copying Profile into proxy object
+1/27/2016 4:53:46 PM,DEBUG,Copying Security into proxy object
+1/27/2016 4:53:46 PM,DEBUG,Proxy.GetTax
+1/27/2016 4:53:48 PM,DEBUG,GetTax (webservice method): 1.492
+1/27/2016 4:53:48 PM,DEBUG,GetTax (proxy method): 1492.0854
+1/27/2016 4:53:48 PM,DEBUG,Copying result from proxy object
+1/27/2016 4:53:48 PM,DEBUG,GetTax (adapter method): 1.494
+1/27/2016 5:04:43 PM,DEBUG,Finalizing TaxSvc: 635894852269180902
+1/27/2016 5:04:43 PM,DEBUG,Disposing BaseSvc class: 635894852269180902
+1/27/2016 5:04:43 PM,DEBUG,Instantiating BaseSvc: 635894858831856266
+1/27/2016 5:04:43 PM,INFO,Unable to load configuration file at "file:///C:/Users/tmontgomery/Documents/Visual Studio 2015/Projects/qta/qw_test_project/qw_test/bin/Release/Avalara.AvaTax.Adapter.DLL.config".
+1/27/2016 5:04:43 PM,INFO,Unable to load configuration file at "file:///C:/Users/tmontgomery/Documents/Visual Studio 2015/Projects/qta/qw_test_project/qw_test/bin/Release/Avalara.AvaTax.Adapter.DLL.config".
+1/27/2016 5:04:43 PM,DEBUG,Instantiating TaxSvc: 635894858831856266
+1/27/2016 5:04:43 PM,DEBUG,TaxSvc.GetTax
+1/27/2016 5:04:43 PM,DEBUG,Validate request
+1/27/2016 5:04:43 PM,DEBUG,Counted 2 address(es)
+1/27/2016 5:04:43 PM,DEBUG,Consolidated to 2 address(es)
+1/27/2016 5:04:43 PM,DEBUG,Copying request into proxy object
+1/27/2016 5:04:43 PM,DEBUG,Request timeout set to 3 seconds
+1/27/2016 5:04:43 PM,DEBUG,Setting the request properties and usertoken for the service request
+1/27/2016 5:04:43 PM,DEBUG,SetRequestProperties
+1/27/2016 5:04:43 PM,DEBUG,address: https://development.avalara.net/Tax/TaxSvc.asmx?AccountId=2000001483
+1/27/2016 5:04:43 PM,DEBUG,via: https://development.avalara.net/Tax/TaxSvc.asmx
+1/27/2016 5:04:43 PM,DEBUG,SetUserToken
+1/27/2016 5:04:43 PM,DEBUG,Copying Profile into proxy object
+1/27/2016 5:04:43 PM,DEBUG,Copying Security into proxy object
+1/27/2016 5:04:43 PM,DEBUG,Proxy.GetTax
+1/27/2016 5:04:44 PM,DEBUG,GetTax (webservice method): 1.452
+1/27/2016 5:04:44 PM,DEBUG,GetTax (proxy method): 1452.0831
+1/27/2016 5:04:44 PM,DEBUG,Copying result from proxy object
+1/27/2016 5:04:44 PM,DEBUG,GetTax (adapter method): 1.453
+1/27/2016 5:05:28 PM,DEBUG,Instantiating BaseSvc: 635894859284322145
+1/27/2016 5:05:28 PM,INFO,Unable to load configuration file at "file:///C:/Users/tmontgomery/Documents/Visual Studio 2015/Projects/qta/qw_test_project/qw_test/bin/Release/Avalara.AvaTax.Adapter.DLL.config".
+1/27/2016 5:05:28 PM,INFO,Unable to load configuration file at "file:///C:/Users/tmontgomery/Documents/Visual Studio 2015/Projects/qta/qw_test_project/qw_test/bin/Release/Avalara.AvaTax.Adapter.DLL.config".
+1/27/2016 5:05:28 PM,DEBUG,Instantiating TaxSvc: 635894859284322145
+1/27/2016 5:05:28 PM,DEBUG,Finalizing TaxSvc: 635894858831856266
+1/27/2016 5:05:28 PM,DEBUG,Disposing BaseSvc class: 635894858831856266
+1/27/2016 5:05:28 PM,DEBUG,TaxSvc.GetTax
+1/27/2016 5:05:28 PM,DEBUG,Validate request
+1/27/2016 5:05:28 PM,DEBUG,Counted 2 address(es)
+1/27/2016 5:05:28 PM,DEBUG,Consolidated to 2 address(es)
+1/27/2016 5:05:28 PM,DEBUG,Copying request into proxy object
+1/27/2016 5:05:28 PM,DEBUG,Request timeout set to 3 seconds
+1/27/2016 5:05:28 PM,DEBUG,Setting the request properties and usertoken for the service request
+1/27/2016 5:05:28 PM,DEBUG,SetRequestProperties
+1/27/2016 5:05:28 PM,DEBUG,address: https://development.avalara.net/Tax/TaxSvc.asmx?AccountId=2000001483
+1/27/2016 5:05:28 PM,DEBUG,via: https://development.avalara.net/Tax/TaxSvc.asmx
+1/27/2016 5:05:28 PM,DEBUG,SetUserToken
+1/27/2016 5:05:28 PM,DEBUG,Copying Profile into proxy object
+1/27/2016 5:05:28 PM,DEBUG,Copying Security into proxy object
+1/27/2016 5:05:28 PM,DEBUG,Proxy.GetTax
+1/27/2016 5:05:28 PM,DEBUG,GetTax (webservice method): 0.272
+1/27/2016 5:05:28 PM,DEBUG,GetTax (proxy method): 272.0156
+1/27/2016 5:05:28 PM,DEBUG,Copying result from proxy object
+1/27/2016 5:05:28 PM,DEBUG,GetTax (adapter method): 0.274
+1/27/2016 5:05:34 PM,DEBUG,Finalizing TaxSvc: 635894859284322145
+1/27/2016 5:05:34 PM,DEBUG,Disposing BaseSvc class: 635894859284322145
+1/27/2016 5:05:34 PM,DEBUG,Instantiating BaseSvc: 635894859346875723
+1/27/2016 5:05:34 PM,INFO,Unable to load configuration file at "file:///C:/Users/tmontgomery/Documents/Visual Studio 2015/Projects/qta/qw_test_project/qw_test/bin/Release/Avalara.AvaTax.Adapter.DLL.config".
+1/27/2016 5:05:34 PM,INFO,Unable to load configuration file at "file:///C:/Users/tmontgomery/Documents/Visual Studio 2015/Projects/qta/qw_test_project/qw_test/bin/Release/Avalara.AvaTax.Adapter.DLL.config".
+1/27/2016 5:05:34 PM,DEBUG,Instantiating TaxSvc: 635894859346875723
+1/27/2016 5:05:34 PM,DEBUG,TaxSvc.GetTax
+1/27/2016 5:05:34 PM,DEBUG,Validate request
+1/27/2016 5:05:34 PM,DEBUG,Counted 2 address(es)
+1/27/2016 5:05:34 PM,DEBUG,Consolidated to 2 address(es)
+1/27/2016 5:05:34 PM,DEBUG,Copying request into proxy object
+1/27/2016 5:05:34 PM,DEBUG,Request timeout set to 3 seconds
+1/27/2016 5:05:34 PM,DEBUG,Setting the request properties and usertoken for the service request
+1/27/2016 5:05:34 PM,DEBUG,SetRequestProperties
+1/27/2016 5:05:34 PM,DEBUG,address: https://development.avalara.net/Tax/TaxSvc.asmx?AccountId=2000001483
+1/27/2016 5:05:34 PM,DEBUG,via: https://development.avalara.net/Tax/TaxSvc.asmx
+1/27/2016 5:05:34 PM,DEBUG,SetUserToken
+1/27/2016 5:05:34 PM,DEBUG,Copying Profile into proxy object
+1/27/2016 5:05:34 PM,DEBUG,Copying Security into proxy object
+1/27/2016 5:05:34 PM,DEBUG,Proxy.GetTax
+1/27/2016 5:05:37 PM,ERROR,Exception has been thrown by the target of an invocation.
+1/27/2016 5:05:37 PM,ERROR,The operation has timed out
+1/27/2016 5:36:07 PM,DEBUG,Finalizing TaxSvc: 635894859346875723
+1/27/2016 5:36:07 PM,DEBUG,Disposing BaseSvc class: 635894859346875723
+1/27/2016 5:36:07 PM,DEBUG,Instantiating BaseSvc: 635894877675914084
+1/27/2016 5:36:07 PM,INFO,Unable to load configuration file at "file:///C:/Users/tmontgomery/Documents/Visual Studio 2015/Projects/qta/qw_test_project/qw_test/bin/Release/Avalara.AvaTax.Adapter.DLL.config".
+1/27/2016 5:36:07 PM,INFO,Unable to load configuration file at "file:///C:/Users/tmontgomery/Documents/Visual Studio 2015/Projects/qta/qw_test_project/qw_test/bin/Release/Avalara.AvaTax.Adapter.DLL.config".
+1/27/2016 5:36:07 PM,DEBUG,Instantiating TaxSvc: 635894877675914084
+1/27/2016 5:36:07 PM,DEBUG,TaxSvc.GetTax
+1/27/2016 5:36:07 PM,DEBUG,Validate request
+1/27/2016 5:36:07 PM,DEBUG,Counted 2 address(es)
+1/27/2016 5:36:07 PM,DEBUG,Consolidated to 2 address(es)
+1/27/2016 5:36:07 PM,DEBUG,Copying request into proxy object
+1/27/2016 5:36:07 PM,DEBUG,Request timeout set to 3 seconds
+1/27/2016 5:36:07 PM,DEBUG,Setting the request properties and usertoken for the service request
+1/27/2016 5:36:07 PM,DEBUG,SetRequestProperties
+1/27/2016 5:36:07 PM,DEBUG,address: https://development.avalara.net/Tax/TaxSvc.asmx?AccountId=2000001483
+1/27/2016 5:36:07 PM,DEBUG,via: https://development.avalara.net/Tax/TaxSvc.asmx
+1/27/2016 5:36:07 PM,DEBUG,SetUserToken
+1/27/2016 5:36:07 PM,DEBUG,Copying Profile into proxy object
+1/27/2016 5:36:07 PM,DEBUG,Copying Security into proxy object
+1/27/2016 5:36:07 PM,DEBUG,Proxy.GetTax
+1/27/2016 5:36:08 PM,DEBUG,GetTax (webservice method): 0.403
+1/27/2016 5:36:08 PM,DEBUG,GetTax (proxy method): 403.0231
+1/27/2016 5:36:08 PM,DEBUG,Copying result from proxy object
+1/27/2016 5:36:08 PM,DEBUG,GetTax (adapter method): 0.404
+1/27/2016 5:36:16 PM,DEBUG,Finalizing TaxSvc: 635894877675914084
+1/27/2016 5:36:16 PM,DEBUG,Disposing BaseSvc class: 635894877675914084
+1/27/2016 5:36:16 PM,DEBUG,Finalizing TaxSvc: 635894852008515993
+1/27/2016 5:36:16 PM,DEBUG,Disposing BaseSvc class: 635894852008515993
+1/27/2016 5:42:54 PM,DEBUG,TaxSvc.GetTax
+1/27/2016 5:42:54 PM,DEBUG,Validate request
+1/27/2016 5:42:54 PM,DEBUG,Counted 2 address(es)
+1/27/2016 5:42:54 PM,DEBUG,Consolidated to 2 address(es)
+1/27/2016 5:42:54 PM,DEBUG,Copying request into proxy object
+1/27/2016 5:42:54 PM,DEBUG,Request timeout set to 3 seconds
+1/27/2016 5:42:54 PM,DEBUG,Setting the request properties and usertoken for the service request
+1/27/2016 5:42:54 PM,DEBUG,SetRequestProperties
+1/27/2016 5:42:54 PM,DEBUG,address: https://development.avalara.net/Tax/TaxSvc.asmx?AccountId=2000001483
+1/27/2016 5:42:54 PM,DEBUG,via: https://development.avalara.net/Tax/TaxSvc.asmx
+1/27/2016 5:42:54 PM,DEBUG,SetUserToken
+1/27/2016 5:42:54 PM,DEBUG,Copying Profile into proxy object
+1/27/2016 5:42:54 PM,DEBUG,Copying Security into proxy object
+1/27/2016 5:42:54 PM,DEBUG,Proxy.GetTax
+1/27/2016 5:42:56 PM,DEBUG,GetTax (webservice method): 1.62
+1/27/2016 5:42:56 PM,DEBUG,GetTax (proxy method): 1622.0927
+1/27/2016 5:42:56 PM,DEBUG,Copying result from proxy object
+1/27/2016 5:42:56 PM,DEBUG,GetTax (adapter method): 1.651
